@@ -4,7 +4,7 @@ Resolve a "viagem perdida": ir até um comércio de bairro e descobrir, só ao c
 
 **Diferencial:** ferramentas como Google Maps já mostram se o estabelecimento existe e seu horário declarado — mas nenhuma confirma se tem um produto específico disponível agora, para comércio pequeno. É esse gap que o projeto ocupa.
 
-**Como funciona, em uma frase:** usuários confirmam por voto se a loja estava aberta e tinha o item; o lojista pode opcionalmente reforçar isso com um check-in de baixíssima fricção; o sistema calcula, com base nesses sinais recentes, se a informação da loja é confiável (**Ativa**) ou arriscada (**Desatualizada**).
+**Como funciona:** usuários confirmam por voto se a loja estava aberta e tinha o item; o lojista pode opcionalmente reforçar isso com um check-in de baixíssima fricção; o sistema calcula, com base nesses sinais recentes, se a informação da loja é confiável (**Ativa**) ou arriscada (**Desatualizada**).
 
 ---
 
@@ -12,8 +12,6 @@ Resolve a "viagem perdida": ir até um comércio de bairro e descobrir, só ao c
 - **Frontend:** Angular
 - **Backend:** Python (FastAPI)
 - **Banco:** PostgreSQL
-
-**Regra de execução:** se o tempo apertar, corta polimento primeiro, sempre. Core nunca é cortado.
 
 ---
 
@@ -67,7 +65,7 @@ Script de seed com lojas, produtos e histórico de votos/check-ins simulados, pr
 ---
 
 ## O que o projeto explicitamente não é
-Sem comparação de preço, delivery, checkout/carrinho, controle de estoque detalhado, catálogo ilimitado (foco em itens essenciais, "Top 10" por loja).
+Sem comparação de preço, delivery, checkout/carrinho, controle de estoque detalhado, catálogo ilimitado.
 
 ---
 
