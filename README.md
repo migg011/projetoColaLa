@@ -54,8 +54,8 @@ Script de seed com lojas, produtos e histórico de votos/check-ins simulados, pr
 
 ---
 
-## Polimento (corta primeiro sob pressão de tempo)
-- Design visual caprichado
+Design do Frontend
+- Design visual aceitavel
 - Autenticação real (fica mockada — usuário fixo fake)
 - Responsividade mobile
 - Telas/fluxos extras além do essencial
